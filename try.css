@@ -12,7 +12,7 @@ body{background:#ffffff;}
     border: 5px solid#487eb0;
     width: auto;
     border-radius: 10px;
-    flex-wrap: wrap; /* Allow images to wrap on small screens */
+     /* Allow images to wrap on small screens */
 }
 
 .image img {
