@@ -180,6 +180,11 @@ table {
 
 /* === ✅ Mobile responsive === */
 @media (max-width: 768px) {
+    body {
+        /* If you re-added overflow-x: hidden for body, remove it here to allow horizontal scroll on zoom */
+        overflow-x: auto; /* Allow horizontal scrolling on zoom */
+    }
+
     .image img {
         width: 100%; /* Make images full width on mobile */
     }
@@ -192,6 +197,7 @@ table {
 
     .box1, .box2, .box3, .blog2_w {
         width: 95%; /* Make these boxes almost full width */
+        min-width: 280px; /* ADDED: A min-width for mobile, allowing horizontal scroll on zoom */
         margin: 10px auto; /* Center them with top/bottom margin */
         padding: 15px; /* Adjust padding */
         font-size: 16px; /* Adjust font size */
@@ -199,10 +205,12 @@ table {
 
     .box3 {
         width: 95%; /* Ensure consistency */
+        min-width: 320px; /* ADDED: A slightly larger min-width for this section on mobile */
     }
 
     #blog1 {
         width: 95%; /* Make this full width on mobile */
+        min-width: 350px; /* ADDED: A min-width for this section on mobile */
         padding: 5px; /* Reduce padding */
     }
 
@@ -222,11 +230,13 @@ table {
         width: 95%; /* Make blog content full width */
         padding: 10px; /* Adjust padding */
         border-width: 4px; /* Keep border consistent */
+        min-width: 280px; /* ADDED: Min-width for blog_w on mobile */
     }
 
     .blog2_c {
         flex-direction: column; /* Stack blog2 content */
         width: 95%; /* Make full width */
+        min-width: 300px; /* ADDED: Min-width for blog2_c on mobile */
         padding: 10px; /* Adjust padding */
     }
 
@@ -259,7 +269,6 @@ table {
     table th:last-child {
         border-bottom: none; /* Remove border for the last item */
     }
-
 
     .reserve {
         font-size: 14px;
