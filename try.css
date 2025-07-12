@@ -1,6 +1,14 @@
 body{background:#000000;
      overflow-x: hidden;
     }
+.box1, .box2 {
+  width: 30%;   /* Desktop view */
+  min-width: 250px;
+}
+
+.blog_img img {
+  width: 20%;
+}
 
 
 @media (max-width: 768px) {
