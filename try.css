@@ -185,7 +185,7 @@ table {
         /* If you re-added overflow-x: hidden for body, remove it here to allow horizontal scroll on zoom */
         overflow-x: auto; /* Allow horizontal scrolling on zoom */
     }
-/*
+
    .image img {
         width: 100%; 
     }
@@ -280,4 +280,4 @@ table {
         padding: 10px;
     }
 }
-*/
+
