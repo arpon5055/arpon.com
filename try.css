@@ -1,7 +1,13 @@
-body{background:#000000;}
+body{background:#000000;
+     overflow-x: hidden;
+    }
 
 
-
+@media (max-width: 768px) {
+  .box1, .box2, .box3, .blog2_w {
+    width: 90%;
+    min-width: unset;
+  }
 
 
 .image {
