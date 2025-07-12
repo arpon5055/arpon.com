@@ -8,6 +8,24 @@ body{background:#000000;
     width: 90%;
     min-width: unset;
   }
+     .blog_img img {
+    width: 45%;
+  }
+
+  .blog2_c {
+    flex-direction: column;
+  }
+
+  table th {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .profile img {
+    width: 150px;
+    height: 150px;
+  }
+}
 
 
 .image {
